@@ -13,6 +13,7 @@ body {
 }
 .navbar-inverse{
     background-color:#f00;
+    color:#000;
 }
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
