@@ -15,7 +15,9 @@ body {
 background-color:#069;
 }
    
-
+.navbar-nav{
+color:#f00;
+}
 }
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
