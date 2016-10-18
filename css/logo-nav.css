@@ -15,6 +15,9 @@ body {
 background-color:#069;
     color:#f00;
 }
+.navbar-inverse > li a{
+    color:#f00;
+}
 .navbar-toggle{
 color:#f00;
 }   
