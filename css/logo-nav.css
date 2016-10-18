@@ -15,18 +15,10 @@ body {
 background-color:#069;
     color:#f00;
 }
-.navbar-inverse > li a{
+.navbar-inverse .navbar-nav  .navbar-toggle > li a{
     color:#f00;
 }
-.navbar-toggle{
-color:#f00;
-}   
-.navbar-nav{
-color:#f00;
-}
-.navbar-collapse{
-color:#f00;
-}
+
 }
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
