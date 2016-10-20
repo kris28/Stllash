@@ -11,11 +11,12 @@ body {
 .navbar-fixed-top .nav {
     padding: 15px 0;
 }
+/*changed the background color*/
 .navbar-inverse{
-background-color:#069;
-    color:#f00;
+background-color:#ff0;
 }
-ul .navbar-nav  .navbar-toggle > li a{
+
+.navbar-inverse  .navbar-nav > li >a{
     color:#069;
 }
 
