@@ -28,13 +28,18 @@ background-color:#069;
 }
 .jumbotron{
     padding:0;
-    background-color:background: linear-gradient(-90deg, #00f, #ff0);
+    background-color:linear-gradient(-90deg, #00f, #ff0);
 }
  .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
+      color:#000;
   }
+hr{
+    height:2px;
+    background-color:#069;
+}
 
 @media(min-width:768px) {
     body {
