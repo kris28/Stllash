@@ -24,9 +24,10 @@ background-color:#069;
 }
 
 .navbar-fixed-top .navbar-brand {
-    padding: 0 25px;
+    padding: 0 15px;
 }
 .jumbotron{
+   margin:2px;
     padding:0;
     background:#069;
 }
