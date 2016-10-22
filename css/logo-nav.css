@@ -23,7 +23,9 @@ background-color:#ff0;
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
 }
-
+.jumbotron{
+    background-color:background: linear-gradient(-90deg, red, yellow);
+}
  .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
