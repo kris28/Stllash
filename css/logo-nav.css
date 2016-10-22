@@ -15,8 +15,8 @@ body {
 .navbar-inverse{
 background-color:#069;
 }
-.btn > btn-success{
-    background-color:#069;
+.btn{
+    background:#069;
     color:#000;
 }
 .navbar-inverse  .navbar-nav > li >a{
@@ -28,7 +28,7 @@ background-color:#069;
 }
 .jumbotron{
     padding:0;
-    background:linear-gradient(-90deg, #00f, #ff0);
+    background:#069;
 }
  .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
