@@ -9,7 +9,7 @@ body {
 }
 
 .navbar-fixed-top .nav {
-    padding: 5px 0;
+    padding: 15px 0;
 }
 /*changed the background color*/
 .navbar-inverse{
@@ -24,7 +24,7 @@ background-color:#069;
 }
 
 .navbar-fixed-top .navbar-brand {
-    padding: 0 15px;
+    padding: 0 5px;
 }
 .jumbotron{
     padding:0;
