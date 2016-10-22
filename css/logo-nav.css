@@ -13,18 +13,19 @@ body {
 }
 /*changed the background color*/
 .navbar-inverse{
-background-color:#ff0;
+background-color:#069;
 }
 
 .navbar-inverse  .navbar-nav > li >a{
-    color:#f00;
+    color:#000;
 }
 
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
 }
 .jumbotron{
-    background-color:background: linear-gradient(-90deg, red, yellow);
+    padding:0;
+    background-color:background: linear-gradient(-90deg, #00f, #ff0);
 }
  .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
