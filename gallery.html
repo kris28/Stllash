@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,14 +10,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>How Sweet It Is</title>
+    <title>How Sweet It Is-Gallery</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/logo-nav.css" rel="stylesheet">
-
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,7 +42,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img src="images/cheesecake-logo.jpg" width="150" height="50" class="img-rounded" alt="Cheesecake Logo">
+                    <img src="images/cheesecake-logo.jpg" width="150" height="84" class="img-rounded" alt="Cheesecake Logo">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,6 +64,23 @@
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                     <li>
+                         <a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                    </li>
+                     <li>
+                         <a href="#"><i class="fa fa-2x fa-github"></i></a>
+                    </li>
+                     <li>
+                         <a href="#"><i class="fa fa-2x fa-html5"></i></a>
+                    </li>
+                     <li>
+                         <a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                    </li>
+                     <li>
+                         <a href="#"><i class="fa fa-2x fa-instagram"></i></a>
+                    </li>
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -70,21 +89,79 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="jumbotron">
+                      
+     <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Recommendations</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
     
-
-
-
-
-    
-  </div>
-            </div>
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">Inspirational</button>
+          <h4 class="modal-title">On the Menu</h4>
         </div>
+        <div class="modal-body">
+          <p>The images represented here illustrate the creative artistry of the baking elite. On our recipe page features some of that same compassion for baking. Wet your palette here and step over to the recipe page to satisfy your taste buds.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
+  </div>            
+                
+                
+        <h2>New York Inspired Cheesecake Recipes</h2>
+  <p>The .thumbnail class can be used to display an image gallery. Click on the images to see it in full size:</p>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="images/CheesecakeCupcakes.jpg" class="thumbnail">
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/CheesecakeCupcakes.jpg" alt="Cheesecake Cupcakes" style="width:150px;height:84px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="images/ChocolateCheesecake.jpg" class="thumbnail">
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/ChocolateCheesecake.jpg" alt="Cheesecake" style="width:150px;height:84px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="images/ChocolateTurtlesCheesecake.jpg" class="thumbnail">
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/ChocolateTurtlesCheesecake.jpg" alt="Chocolate Turtles Cheesecake" style="width:150px;height:84px">
+      </a>
+    </div>
+  </div>        
+ <hr>
+  <div class="row">
+    <div class="col-md-4">
+     <a href="images/CookieButterCheesecake.jpg" class="thumbnail">
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/CookieButterCheesecake.jpg" alt="Cookie Butter Cheesecake" style="width:150px;height:84px">
+      </a>
+    </div>
+    <div class="col-md-4">
+     <a href="images/PeanutButter-FudgeSwirlPie.jpg" class="thumbnail">
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/PeanutButter-FudgeSwirlPie.jpg" alt="Peanut Butter-Fudge Swirl Pie" style="width:150px;height:84px">
+      </a>
+    </div>
+    <div class="col-md-4">
+     <a href="images/Strawberry-Swirl.jpg" class="thumbnail">
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/Strawberry-Swirl.jpg" alt="Strawberry-Swirl" style="width:150px;height:84px">
+      </a>
+    </div>
+  </div>           
+    
+            </div>
     <!-- /.container -->
-
+       
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
