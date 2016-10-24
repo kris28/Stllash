@@ -183,54 +183,117 @@
     <div class="col-md-4">
      
         <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
-        <img src="images/CheesecakeCupcakes.jpg" alt="Cheesecake Cupcakes" style="width:150px;height:84px">
+        <img src="images/CheesecakeCupcakes.jpg" alt="Cheesecake Cupcakes" style="width:400px;height:268px">
     
     </div>
     <div class="col-md-4">
       
         <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
-        <img src="images/ChocolateCheesecake.jpg" alt="Cheesecake" style="width:150px;height:84px">
+        <img src="images/ChocolateCheesecake.jpg" alt="Cheesecake" style="width:400px;height:268px">
    
     </div>
     <div class="col-md-4">
      
         <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
-        <img src="images/ChocolateTurtlesCheesecake.jpg" alt="Chocolate Turtles Cheesecake" style="width:150px;height:84px">
+        <img src="images/ChocolateTurtlesCheesecake.jpg" alt="Chocolate Turtles Cheesecake" style="width:400px;height:268px">
     
     </div>
   </div>        
  <hr>
   <div class="row">
     <div class="col-md-4">
-     <a href="images/CookieButterCheesecake.jpg" class="thumbnail">
+     
         <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
-        <img src="images/CookieButterCheesecake.jpg" alt="Cookie Butter Cheesecake" style="width:150px;height:84px">
-      </a>
+        <img src="images/CookieButterCheesecake.jpg" alt="Cookie Butter Cheesecake" style="width:400px;height:268px">
+     
     </div>
     <div class="col-md-4">
-     <a href="images/PeanutButter-FudgeSwirlPie.jpg" class="thumbnail">
-        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
-        <img src="images/PeanutButter-FudgeSwirlPie.jpg" alt="Peanut Butter-Fudge Swirl Pie" style="width:150px;height:84px">
-      </a>
-    </div>
-    <div class="col-md-4">
-     <a href="images/Strawberry-Swirl.jpg" class="thumbnail">
-        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
-        <img src="images/Strawberry-Swirl.jpg" alt="Strawberry-Swirl" style="width:150px;height:84px">
-      </a>
-    </div>
-  </div>           
     
-            </div>
-    <!-- /.container -->
-        </div>
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/PeanutButter-FudgeSwirlPie.jpg" alt="Peanut Butter-Fudge Swirl Pie" style="width:400px;height:268px">
+    
     </div>
+    <div class="col-md-4">
+    
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/Strawberry-Swirl.jpg" alt="Strawberry-Swirl" style="width:400px;height:268px">
+    
+    </div>
+      
+  <div class="col-md-4">
+     
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/CookieButterCheesecake.jpg" alt="Cookie Butter Cheesecake" style="width:400px;height:268px">
+     
+    </div>
+    <div class="col-md-4">
+    
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/PeanutButter-FudgeSwirlPie.jpg" alt="Peanut Butter-Fudge Swirl Pie" style="width:400px;height:268px">
+    
+    </div>
+    <div class="col-md-4">
+    
+        <p>"When I make these, people just RAVE about them! Mini cheesecakes with sour cream topping."</p>
+        <img src="images/Strawberry-Swirl.jpg" alt="Strawberry-Swirl" style="width:400px;height:268px">
+    
+    </div>     
+            
+  </div>  
+                
+  <hr>        
+        <footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Cheesecake Website by <a href="http:/nkcurlett.com" title="Nick curlett">nkcurlett.com</a></p>
+</footer>
+            </div>    
+      
+    <!-- /.container -->
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
 
 </body>
-
-</html>
+        </html>
