@@ -23,6 +23,11 @@ background-color:#069;
     color:#000;
 }
 
+.navbar-inverse  .navbar-nav > li >a:active{
+    background:#000;
+    color:#fff;
+}
+
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
 }
