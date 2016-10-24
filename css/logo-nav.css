@@ -47,6 +47,15 @@ hr{
     height:2px;
     background-color:#069;
 }
+
+.gallery{ 
+    float:left;
+    margin:10px;
+    padding:5px;
+    width:405px;
+    height:273px;
+    border: 2px solid #069;
+}
 p.list-group-item-text{
  padding-left:5px;   
 }
