@@ -42,7 +42,7 @@ hr{
     height:2px;
     background-color:#069;
 }
-.list-group-item-text{
+p.list-group-item-text{
  padding-left:5px;   
 }
 @media(min-width:768px) {
