@@ -56,6 +56,13 @@ hr{
     height:250px;
     border: 2px solid #069;
 }
+
+.gallery h4{ 
+    background: #069;
+    color:#fff;
+    font-weight:bolder;
+    font-family: arial;
+}
 p.list-group-item-text{
  padding-left:5px;   
 }
