@@ -24,7 +24,7 @@ background-color:#069;
 }
 
 .navbar-inverse  .navbar-nav > li >a:active{
-    background:#000;
+    background:#f00;
     color:#fff;
 }
 
