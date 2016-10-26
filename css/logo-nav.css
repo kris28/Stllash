@@ -16,7 +16,7 @@ body {
 background-color:#069;
 }
 .btn{
-    background:#069;
+    background-color:#069;
     color:#fff;
 }
 .navbar-inverse  .navbar-nav > li > a{
@@ -24,13 +24,12 @@ background-color:#069;
 }
 
 .navbar-inverse  .navbar-nav > li > a:active, hover{
-    background:#f00;
-    color:#fff;
+    background-color:#f00;
+    color:#069;
 }
 
 .navbar-fixed-top .navbar-brand {
-    padding: 0 25px;
-border: 2px solid #fff;
+    padding: 0 15px;
 }
 .navbar-brand img{
 border: 2px solid #fff; 
@@ -76,6 +75,6 @@ p.list-group-item-text{
     }
 
     .navbar-fixed-top .navbar-brand {
-        padding: 5px 10px;
+        padding: 5px 25px;
     }
 }
