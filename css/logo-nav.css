@@ -20,7 +20,7 @@ background-color:#069;
     color:#000;
 }
 .navbar-inverse  .navbar-nav > li >a{
-    color:#000;
+    color:#fff;
 }
 
 .navbar-inverse  .navbar-nav > li >a:active{
@@ -29,7 +29,7 @@ background-color:#069;
 }
 
 .navbar-fixed-top .navbar-brand {
-    padding: 0 15px;
+    padding: 0 25px;
 border: 2px solid #fff;
 }
 .navbar-brand{
