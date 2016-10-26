@@ -1,0 +1,20 @@
+========================================
+17.0.0.108 - StartStopExternal - 9/23/2016 1:59:35 PM
+========================================
+vMix.VMIXException: External Renderer Not Found
+   at ht.zg(mz a)
+   at vMix.frmmain.StartStopExternal(Boolean start)
+========================================
+17.0.0.108 - StartStopExternal - 9/23/2016 2:02:04 PM
+========================================
+vMix.VMIXException: External Renderer Not Found
+   at ht.zg(mz a)
+   at vMix.frmmain.StartStopExternal(Boolean start)
+========================================
+17.0.0.108 - MultiCorder - 9/23/2016 2:06:49 PM
+========================================
+VideoConformer: 333667,3770099667
+========================================
+17.0.0.108 - MultiCorder - 9/23/2016 2:06:49 PM
+========================================
+StartVideoFrame: 0,333667

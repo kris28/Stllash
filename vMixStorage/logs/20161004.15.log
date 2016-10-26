@@ -1,0 +1,26 @@
+========================================
+17.0.0.111 - AddNewInput - 10/4/2016 3:39:35 PM
+========================================
+vMix.VMIXException: Capture Resolution is not supported by this device. ---> System.Runtime.InteropServices.COMException (0x80040200): An invalid media type was specified.
+   at DirectShowLib.DsError.ThrowExceptionForHR(Int32 hr)
+   at jr.j(IPin a, Guid a, Format a, iv a, Boolean a)
+   at jr.d(oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   --- End of inner exception stack trace ---
+   at ezzzzzq.a(WaitCallback a)
+   at jr.d(oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jr..ctor(Guid a, oe a, iv a, CaptureType a, CaptureAudioType a, Int32 a, Int32 a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jh.a(Guid a, oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a, Boolean a)
+   at vMix.frmInput.b(Object a, EventArgs a)
+========================================
+17.0.0.111 - AddNewInput - 10/4/2016 3:41:01 PM
+========================================
+vMix.VMIXException: Capture Resolution is not supported by this device. ---> System.Runtime.InteropServices.COMException (0x80040200): An invalid media type was specified.
+   at DirectShowLib.DsError.ThrowExceptionForHR(Int32 hr)
+   at jr.j(IPin a, Guid a, Format a, iv a, Boolean a)
+   at jr.d(oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   --- End of inner exception stack trace ---
+   at ezzzzzq.a(WaitCallback a)
+   at jr.d(oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jr..ctor(Guid a, oe a, iv a, CaptureType a, CaptureAudioType a, Int32 a, Int32 a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jh.a(Guid a, oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a, Boolean a)
+   at vMix.frmInput.b(Object a, EventArgs a)

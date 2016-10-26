@@ -1,0 +1,44 @@
+========================================
+17.0.0.111 - AddNewInput - 10/25/2016 6:01:44 PM
+========================================
+System.Exception: Capture Device Is Not Supported, Device Reported the following: Video out
+32595559-0000-0010-8000-00aa00389b71 ---> System.Exception: Capture Device Is Not Supported, Device Reported the following: Video out
+32595559-0000-0010-8000-00aa00389b71 ---> System.Runtime.InteropServices.COMException (0x80040217): No combination of intermediate filters could be found to make the connection.
+   at DirectShowLib.DsError.ThrowExceptionForHR(Int32 hr)
+   at DirectShowLib.Utils.FilterGraphTools.ConnectFilters(IGraphBuilder graphBuilder, IPin sourcePin, IPin destPin, Boolean useIntelligentConnect)
+   at k.f(IBaseFilter a, IPin a)
+   --- End of inner exception stack trace ---
+   at k.f(IBaseFilter a, IPin a)
+   at k..ctor(fn a, IGraphBuilder a, IBaseFilter a, IPin a, iv a, DeinterlaceType a, gzzzzzp a, FieldOrder a)
+   at jv.h(IBaseFilter a, iv a, IPin a, DeinterlaceType a, FieldOrder a)
+   at jr.d(oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jr.a._Lambda$__97()
+   at ezzzzzq.a._Lambda$__310()
+   --- End of inner exception stack trace ---
+   at ezzzzzq.a(WaitCallback a)
+   at jr.d(oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jr..ctor(Guid a, oe a, iv a, CaptureType a, CaptureAudioType a, Int32 a, Int32 a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jh.a(Guid a, oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a, Boolean a)
+   at vMix.frmInput.b(Object a, EventArgs a)
+========================================
+17.0.0.111 - AddNewInput - 10/25/2016 6:03:38 PM
+========================================
+System.Exception: Capture Device Is Not Supported, Device Reported the following: Video out
+32595559-0000-0010-8000-00aa00389b71 ---> System.Exception: Capture Device Is Not Supported, Device Reported the following: Video out
+32595559-0000-0010-8000-00aa00389b71 ---> System.Runtime.InteropServices.COMException (0x80040217): No combination of intermediate filters could be found to make the connection.
+   at DirectShowLib.DsError.ThrowExceptionForHR(Int32 hr)
+   at DirectShowLib.Utils.FilterGraphTools.ConnectFilters(IGraphBuilder graphBuilder, IPin sourcePin, IPin destPin, Boolean useIntelligentConnect)
+   at k.f(IBaseFilter a, IPin a)
+   --- End of inner exception stack trace ---
+   at k.f(IBaseFilter a, IPin a)
+   at k..ctor(fn a, IGraphBuilder a, IBaseFilter a, IPin a, iv a, DeinterlaceType a, gzzzzzp a, FieldOrder a)
+   at jv.h(IBaseFilter a, iv a, IPin a, DeinterlaceType a, FieldOrder a)
+   at jr.d(oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jr.a._Lambda$__97()
+   at ezzzzzq.a._Lambda$__310()
+   --- End of inner exception stack trace ---
+   at ezzzzzq.a(WaitCallback a)
+   at jr.d(oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jr..ctor(Guid a, oe a, iv a, CaptureType a, CaptureAudioType a, Int32 a, Int32 a, Boolean a, Boolean a, oe a, ai a, Guid a)
+   at jh.a(Guid a, oe a, iv a, CaptureType a, CaptureAudioType a, Size a, Boolean a, Boolean a, oe a, ai a, Guid a, Boolean a)
+   at vMix.frmInput.b(Object a, EventArgs a)

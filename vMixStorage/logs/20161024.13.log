@@ -1,0 +1,7 @@
+========================================
+17.0.0.111 - AddNewInput - 10/24/2016 7:34:36 PM
+========================================
+System.IO.FileNotFoundException: File Not Found: 
+   at ji.zf(String a)
+   at kb..ctor(Guid a, String a)
+   at vMix.frmInput.b(Object a, EventArgs a)

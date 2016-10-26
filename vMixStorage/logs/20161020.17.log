@@ -1,0 +1,11 @@
+========================================
+17.0.0.111 - Present.Main - 10/20/2016 5:31:50 PM
+========================================
+SlimDX.Direct3D9.Direct3D9Exception: ERROR_INVALID_WINDOW_HANDLE: n/a (-2147023496)
+   at SlimDX.Result.Throw[T](Object dataKey, Object dataValue)
+   at SlimDX.Result.Record[T](Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+   at SlimDX.Result.Record[T](Int32 hr, Object dataKey, Object dataValue)
+   at SlimDX.Direct3D9.SwapChain.Present(Present flags)
+   at vMix.FlipExHelper.BeginPresent()
+   at lg.a()
+   at fn.zu(lb a)

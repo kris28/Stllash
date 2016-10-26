@@ -1,0 +1,6 @@
+========================================
+17.0.0.108 - Streaming.Start - 9/22/2016 1:26:40 PM
+========================================
+vMix.FMLEException: Adobe Flash Media Live Encoder could not be found. Please make sure the latest version is installed, or select FFMPEG instead from the Application dropdown box.
+   at dzzzzzn.a()
+   at dzzzzzs.i(dzzzzzo a)

@@ -1,0 +1,46 @@
+﻿9/23/2016 2:06:48 PM, Version: 17.0.0.108 x64
+9/23/2016 2:06:48 PM, Size: 720x480
+9/23/2016 2:06:48 PM, System: NTSC 59.94i
+9/23/2016 2:06:48 PM, Codec: H264
+9/23/2016 2:06:48 PM, Format: YUY2 16 844715353
+9/23/2016 2:06:48 PM, AudioDevice: RawAudio
+9/23/2016 2:06:48 PM, AudioFormat: Default
+9/23/2016 2:06:48 PM, AudioDelay: 0
+9/23/2016 2:06:48 PM, RestartInterval: 0
+9/23/2016 2:06:48 PM, Buffers: 30
+9/23/2016 2:06:48 PM, BitRate: 16 Mbps
+9/23/2016 2:06:48 PM, AudioBitRate: 128 Kbps
+9/23/2016 2:06:49 PM, StartRecording
+9/23/2016 2:07:46 PM, StopRecording
+9/23/2016 2:07:46 PM, Duration: 00:00:57
+9/23/2016 2:07:46 PM, Frames: 1714
+9/23/2016 2:07:46 PM, DroppedFrames: 0
+9/23/2016 2:07:46 PM,   DueToSourceFrameRate: 0
+9/23/2016 2:07:46 PM,   DueToHardDiskOrCPU: 0
+9/23/2016 2:07:46 PM, DroppedSamples: 0
+9/23/2016 2:07:46 PM, MissedSamples: 0
+9/23/2016 2:07:46 PM, SyncedSamples: 0
+9/23/2016 2:07:46 PM, AudioOffset: 0
+9/23/2016 2:07:46 PM, AudioDelay: 0
+9/23/2016 2:07:46 PM, AudioEngine
+9/23/2016 2:07:46 PM,   Running: True
+9/23/2016 2:07:46 PM,   SampleRate: 48000hz 16 Bit
+9/23/2016 2:07:46 PM,   MixingErrors: 0
+9/23/2016 2:07:46 PM,     Streams
+9/23/2016 2:07:46 PM,       Mixer
+9/23/2016 2:07:46 PM,         Samples: 21891
+9/23/2016 2:07:46 PM,         Dropped: Read 0 Write 0
+9/23/2016 2:07:46 PM,         Latency: 0 ms
+9/23/2016 2:07:46 PM,         Errors: 0
+9/23/2016 2:07:46 PM,       Headphones
+9/23/2016 2:07:46 PM,         Samples: 21891
+9/23/2016 2:07:46 PM,         Dropped: Read 0 Write 0
+9/23/2016 2:07:46 PM,         Latency: 40 ms
+9/23/2016 2:07:46 PM,         Errors: 0
+9/23/2016 2:07:46 PM,       DirectShow
+9/23/2016 2:07:46 PM,         Samples: 21710
+9/23/2016 2:07:46 PM,         Dropped: Read 2 Write 0
+9/23/2016 2:07:46 PM,         Latency: 60 ms
+9/23/2016 2:07:46 PM,         TargetLatency: 67 ms
+9/23/2016 2:07:46 PM,         Resampled: 0/40
+9/23/2016 2:07:46 PM,         Errors: 0

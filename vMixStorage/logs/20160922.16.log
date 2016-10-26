@@ -1,0 +1,28 @@
+========================================
+17.0.0.108 - FFMPEG.Exited - 9/22/2016 6:21:51 PM
+========================================
+dzzzzzw: Streaming
+[rtmp @ 00768560] Cannot open connection tcp://a.rtmp.youtube.com:1935
+rtmp://a.rtmp.youtube.com/live2/cdpu-rjs0-uy3v-73d1: Unknown error
+ ---> dzzzzzw: [dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (91% of size: 256000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 11 times
+[dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (92% of size: 256000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 9 times
+[dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (93% of size: 256000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 112 times
+[tcp @ 006f33e0] TCP Buffer has been set to 3990528 bytes
+[dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (93% of size: 256000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 94 times
+[dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (94% of size: 256000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 12 times
+[dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (95% of size: 256000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 11 times
+[dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (96% of size: 256000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 9 times
+[dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (97% of size: 256000000 [rtbufsize parameter])! frame dropped!
+    Last message repeated 3 times
+[rtmp @ 00768560] Cannot open connection tcp://a.rtmp.youtube.com:1935
+rtmp://a.rtmp.youtube.com/live2/cdpu-rjs0-uy3v-73d1: Unknown error
+[dshow @ 00af87e0] real-time buffer [vMix Video] [video input] too full or near too full (97% of size: 256000000 [rtbufsize parameter])! frame dropped!
+
+   --- End of inner exception stack trace ---

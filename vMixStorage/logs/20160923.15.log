@@ -1,0 +1,6 @@
+========================================
+17.0.0.108 - StartStopExternal - 9/23/2016 2:02:39 PM
+========================================
+vMix.VMIXException: External Renderer Not Found
+   at ht.zg(mz a)
+   at vMix.frmmain.StartStopExternal(Boolean start)

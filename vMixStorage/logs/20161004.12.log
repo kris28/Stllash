@@ -1,0 +1,15 @@
+========================================
+17.0.0.111 - Startup - 10/4/2016 2:57:26 PM
+========================================
+System.Configuration.ConfigurationErrorsException: Failed to save settings: The configuration file has been changed by another program. (C:\Users\student67\AppData\Local\StudioCoast_Pty_Ltd\vMix64.exe_Url_5l40qvre1y15spmggwt1gelpnmwemdfj\17.0.0.111\user.config) ---> System.Configuration.ConfigurationErrorsException: The configuration file has been changed by another program. (C:\Users\student67\AppData\Local\StudioCoast_Pty_Ltd\vMix64.exe_Url_5l40qvre1y15spmggwt1gelpnmwemdfj\17.0.0.111\user.config)
+   at System.Configuration.MgmtConfigurationRecord.SaveAs(String filename, ConfigurationSaveMode saveMode, Boolean forceUpdateAll)
+   at System.Configuration.ClientSettingsStore.WriteSettings(String sectionName, Boolean isRoaming, IDictionary newSettings)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ClientSettingsStore.WriteSettings(String sectionName, Boolean isRoaming, IDictionary newSettings)
+   at System.Configuration.LocalFileSettingsProvider.SetPropertyValues(SettingsContext context, SettingsPropertyValueCollection values)
+   at System.Configuration.SettingsBase.SaveCore()
+   at System.Configuration.SettingsBase.Save()
+   at na.k(mz a, mz a, mz a, mz a)
+   at na.a()
+   at na..ctor(ContextMenuStrip a, ContextMenuStrip a, ContextMenuStrip a)
+   at gzzzzzu.s(frmmain a)
