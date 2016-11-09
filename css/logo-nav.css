@@ -49,6 +49,11 @@ border: 2px solid #fff;
       width: 70%;
       margin: auto;
 }
+
+.fruit{
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #f00;
+}
     hr{
     height:2px;
     background-color:#f00;
