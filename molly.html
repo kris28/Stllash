@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>How Sweet it is-Recipes</title> <!--Changed the title-->
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/logo-nav.css" rel="stylesheet">
+   <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"><!--Added this link for font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!--Added this font-awesome stylesheet link open sources-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+     <!-- Added the carousel inner tag effect child elements -->
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+            background: #260d26;
+        }
+    </style> <!--Changed the background color to purple-->
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/cheesecake_logo.jpg" class="img-rounded" alt="cheesecake logo" width="150" height="84">
+                    <!--Added the image, class, alt, width and height-->
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a> <!--Added index.html-->
+                    </li>
+                    <li>
+                        <a href="about.html">About</a> <!--Added about.html-->
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a> <!--Added gallery.html-->
+                    </li>
+                    <li class="active fa fa-spinner fa-spin fa-3x fa-fw">
+                        <a href="recipes.html">Recipes</a><span class="sr-only">Loading...</span> <!--Added recipes.html and added class=active so a square will hover over the button-->
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a> <!--Added contact.html-->
+                    </li>
+                     </ul>
+              <ul class="nav navbar-nav navbar-right"> <!--Added navbar-right to unordered list-->
+                    <li>
+                        <a href="#"><i class="fa fa-2x fa-facebook-square"></i></a> <!--Added this facebook font-awesome-->
+                   </li>
+                    <li>
+                        <a href="#"><i class="fa fa-2x fa-twitter-square"></i></a> <!--Added this twitter font-awesome-->
+                   </li>
+                    <li>
+                        <a href="#"><i class="fa fa-2x fa-pinterest"></i></a> <!--Added this pinterest font-awesome-->
+                   </li>
+                    <li>
+                        <a href="#"><i class="fa fa-2x fa-youtube-square"></i></a> <!--Added this youtube font-awesome-->
+                   </li>
+                  <li>
+                        <a href="#"><i class="fa fa-2x fa-github"></i></a> <!--Added this github font-awesome-->
+                   </li>
+                  <li>
+                        <a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a> <!--Added this linkedin font-awesome-->
+                   </li>
+                  <li>
+                        <a href="#"><i class="fa fa-2x fa-instagram"></i></a> <!--Added this instagram font-awesome-->
+                   </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Cheesecake Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <br>
+                <h1 class="Tango" style="color:#939;">Recipes</h1>
+                        <hr>
+  <h2 style="color:#c6c;">Recipes for my INCREDIBLE CHEESECAKES</h2> <!--Changed the font color to purple-->
+ <p style="color:#c6c;">Here are the ingredients to make each cheesecake.</p>
+                <br>
+    <ul id="myTab" class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#CCK1" style="color:#939;"><i class="fa fa-comment"></i>OREO Extreme</a></li>
+    <li><a data-toggle="tab" href="#CCK2" style="color:#939;"><i class="fa fa-comment"></i>Chocolate Hazelnut</a></li>
+    <li><a data-toggle="tab" href="#CCK3" style="color:#939;"><i class="fa fa-comment"></i>Salted Caramel</a></li>
+    <li><a data-toggle="tab" href="#CCK4" style="color:#939;"><i class="fa fa-comment"></i>Marshmallow S'mores</a></li>
+    <li><a data-toggle="tab" href="#CCK5" style="color:#939;"><i class="fa fa-comment"></i>Lemon Meringue</a></li>
+    <li><a data-toggle="tab" href="#CCK6" style="color:#939;"><i class="fa fa-comment"></i>Red Velvet Cake</a></li>
+  </ul>
+  </div>
+<!-- CCK1 left-aligned tab with dropdown menu -->
+   <div id="myTabContent" class="tab-content">
+    <div id="CCK1" class="tab-pane fade in active in">
+      <h3 style="color:#939;">OREO Dream Extreme Cheesecake</h3>
+       <div class="media">
+    <div class="media-left">
+      <img src="images/cheeseck3.jpg" class="media-object img-rounded" style="width:300px;height:225px;">
+</div>   
+    <div class="media-body">
+<h4 class="media-heading" style="color:#939;"><span class="glyphicon glyphicon-star"></span>OREO Dream Extreme Cheesecake</h4> <!--Changed the font color--> 
+      <p style="color:#939;">OREO Cookies baked in our creamy Cheesecake with layers of fudge cake and OREO Cookie mousse and topped with a milk chocolate icing.</p> <!--Added the paragraph--> 
+        <div class="list-group">
+    <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">
+      <h4 class="list-group-item-heading" style="color:#939;">Ingredients</h4>  
+    </ul>
+    <ul class="list-group-item">
+    <p class="list-group-item-text"><i class="fa fa-shopping-cart"></i>Grocery List</p>
+    <p class="list-group-item-text">Chocolate Cake Layer</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 9 <i class="fa fa-spoon"></i>tablespoons granulated sugar</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-coffee"></i>cup water</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup all-purpose flour</p>
+         <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 egg</p> 
+         <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-spoon"></i>teaspoon vanilla extract</p> 
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 <i class="fa fa-spoon"></i>tablespoons vegetable oil</p> 
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-spoon"></i>tablespoon shortening</p>
+          <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 <i class="fa fa-spoon"></i>tablespoons hershey’s cocoa powder (not dark)</p>
+          <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-spoon"></i>teaspoon baking powder</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-spoon"></i>teaspoon baking soda</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-spoon"></i>teaspoon salt</p>
+        <p class="list-group-item-text">Chocolate Icing (your favorite recipe)</p>
+        <p class="list-group-item-text">Oreo Cheesecake Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-coffee"></i>cups heavy cream</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup granulated sugar</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-spoon"></i>teaspoon vanilla extract</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 16 ounces cream cheese softened</p> 
+        <p class="list-group-item-text">Oreo Cookies Original (not double stuffed)</p>
+        <p class="list-group-item-text">Oreo Mousse Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 0.5 (1/4 ounce) package knox unflavored gelatin</p> 
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup hot water</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 ounces white baking chocolate</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 egg yolk</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-spoon"></i>teaspoons honey</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-spoon"></i>tablespoon milk</p>
+       <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-coffee"></i>cups heavy cream</p> 
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 10 Oreo cookies crushed</p>
+        <p class="list-group-item-text">Chocolate Ganache Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 egg</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3/4 <i class="fa fa-coffee"></i>cup heavy cream</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-coffee"></i>cup granulated sugar</p>
+         <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-spoon"></i>teaspoon vanilla extract</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/4 <i class="fa fa-coffee"></i>cups semi-sweet chocolate chips</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 6 ounces mini chocolate chips (1/2 bag)</p>         </ul>
+      <ul class="list-group-item active" style="background-color:#ff0;border: 2px solid #939;">      
+       <h4 class="list-group-item-heading" style="color:#939;">Directions</h4>
+           </ul>
+      <ul class="list-group-item"> 
+    <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Preheat the oven to 350 degrees F. Make the chocolate cake by combining the sugar, egg, and vanilla in a medium bowl and mixing with an electric mixer on high for 2 minute. Add the oil and shortening and mix well, then add the water and mix until smooth. In another medium bowl, combine the flour, cocoa powder, baking powder, baking soda, and salt. Pour this dry blend into the bowl with the wet ingredients and mix until smooth. Pour into a well-greased 10-inch springform pan and bake in the preheated oven for 25 minutes. While the cake is in the oven, prepare chocolate icing. Once the cake is completely cool, spread icing over the top of the cake, reserving some for garnishing the cake later. Freeze cake with icing for 1 hour.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Prepare the Oreo cheesecake layer by mixing the heavy cream, sugar, and vanilla in a medium bowl with an electric mixer on high until the cream forms stiff peaks. Mix in the softened cream cheese until smooth. Spread 1/3 of the mixture over the icing on the cake. Place whole Oreo cookies in a single layer across the entire cake. Follow with the remaining cheesecake mixture. Chill for 1 hour. Make the Oreo mousse layer by mixing ½ packet of the powdered gelatin with the hot water. Refrigerate until set. Once set, place in cold water to soften gelatin enough to loosen it from the pan. Place softened gelatin into a double boiler and melt. In a separate double boiler, melt the chocolate, being careful not to burn it. Add melted chocolate to gelatin and mix well.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Whip egg yolks by hand in a small bowl to soft foamy peaks. Mean while, bring honey to a boil. Pour hot honey onto the yolks stirring constantly. Fold the melted chocolate into the yolk mixture. Heat the milk in a small saucepan. Stir the milk into the chocolate mixture. In a large bowl, whip the cream to soft peaks and fold into the chocolate mixture. Add the crushed Oreos to the mixture and mix well. Pour enough mousse over the cheesecake layer to form a layer about ½ inch thick. There may be mousse left over. Chill for at least 2 hours or overnight.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Prepare chocolate ganache layer by whisking together the egg, cream, and sugar in a medium metal bow. Set the bowl over water that is simmering in a medium saucepan over medium/low heat (you can also use a double boiler pan for this) and whisk for 6 minutes, or until thick. Remove the bowl from the heat, add the chocolate chips (not the mini chocolate chips), and mix with a spoon until smooth. Spread over the Oreo mousse layer. Chill at least 1 hour.</p>
+ <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Load the reserved chocolate icing into a piping bag. Remove cake from springform pan and pipe icing into 12 even circles around the side of the cake. Lay ½ Oreo cookie with cream filling removed back onto each mound of icing. Press mini chocolate chips around the sides of the cake. Press firmly so that the chips stick. Chill the cake for at least another hour, then use a serrated knife to cut the cake into 12 slices. Serve with a mound of whipped cream and Oreo cookie pieces to the side.</p>
+    </ul>
+</div>
+   </div>
+  <p><a href="pdf/OREOCheesecake.pdf"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-print"></span> Recipe</button></a></p>
+    </div>
+</div> 
+     
+<!-- /CCK1 left-aligned tab with dropdown menu -->
+<!-- CCK2 left-aligned tab with dropdown menu -->
+    <div id="CCK2" class="tab-pane fade">
+      <h3 style="color:#939;">Chocolate Hazelnut Crunch Cheesecake</h3>
+       <div class="media">
+    <div class="media-left">
+      <img src="images/cheeseck18.jpg" class="media-object img-rounded" style="width:300px;height:225px;">
+</div>    
+    <div class="media-body">
+  <h4 class="media-heading" style="color:#939;"><span class="glyphicon glyphicon-star"></span>Chocolate Hazelnut Crunch Cheesecake</h4> <!--Changed the font color--> 
+      <p style="color:#939;">Chocolate Hazelnut Cheesecake Topped with Hazelnut Crunch and Nutella.</p> <!--Added the paragraph--> 
+        <div class="list-group">
+    <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">
+      <h4 class="list-group-item-heading" style="color:#939;">Ingredients</h4> 
+    </ul>
+    <ul class="list-group-item">
+    <p class="list-group-item-text"><i class="fa fa-shopping-cart"></i>Grocery List</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 18 chocolate graham cracker sheets (2 <i class="fa fa-coffee"></i>cups crumbs)</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup chopped hazelnuts, toasted</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-coffee"></i>cup butter, melted</p>
+         <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-coffee"></i>cup semisweet chocolate mini-morsels, melted</p> 
+         <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 4 (8-ounce) packages cream cheese, softened</p> 
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup butter, softened</p> 
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 4 (4-ounce) packages milk chocolate baking bars, melted</p>
+          <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 4 large eggs</p>
+          <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 egg yolk</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 (10-ounce) package almond toffee bits</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3/4 <i class="fa fa-coffee"></i>cup chopped hazelnuts, toasted</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 <i class="fa fa-spoon"></i>tablespoons hazelnut liqueur</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-spoon"></i>tablespoon vanilla extract</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-spoon"></i>teaspoon ground nutmeg</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 (16-ounce) container sour cream</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 <i class="fa fa-spoon"></i>tablespoons sugar</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-spoon"></i>tablespoon hazelnut liqueur</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> sweetened whipped cream</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> almond toffee bits</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> chopped hazelnuts, toasted</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup (148 grams) Nutella® Hazelnut Spread</p>
+                </ul>
+      <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">      
+       <h4 class="list-group-item-heading" style="color:#939;">Directions</h4>
+           </ul>
+      <ul class="list-group-item"> 
+    <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Preheat the oven to 325 degrees F for 1 hour and 15 minutes or until almost set. Process graham crackers and 1/2 cup hazelnuts in a food processor until finely ground. Add melted butter; pulse 4 or 5 times or until blended. Press mixture into bottom and 1 1/2 inches up sides of a 10-inch springform pan; freeze 15 minutes. Carefully spread melted mini-morsels over frozen crust. Freeze 15 minutes.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Meanwhile, beat cream cheese and softened butter at medium speed with an electric mixer just until smooth. Add melted white chocolate, beating just until blended. Add eggs, 1 at a time, and yolk, beating just until blended after each addition. Stir in toffee bits and next 4 ingredients. Pour batter into prepared crust.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Meanwhile, combine sour cream, sugar, and 1 tablespoon liqueur in a medium bowl. Remove cheesecake from oven; carefully spoon sour cream mixture evenly over cheesecake. Bake 15 more minutes; remove from oven. Run a knife around edge of pan, and release sides. Cool completely on a wire rack. Cover and chill 8 hours. Serve with sweetened whipped cream, toffee bits, nutella, and hazelnuts. Store in refrigerator.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Tip: There are 8 cups of batter for this stately cheesecake. Once the sour cream mixture is added, the pan will be very full, so be careful when transferring to and from the oven.</p>
+    </ul>
+        </div>
+    </div>
+  <p><a href="pdf/HAZNTCheesecake.pdf"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-print"></span> Recipe</button></a></p>
+    </div>
+</div> 
+<!--/CCK2 left-aligned tab with dropdown menu-->    
+<!--CCK3 left-aligned tab with dropdown menu--> 
+    <div id="CCK3" class="tab-pane fade">
+      <h3 style="color:#939;">Salted Caramel Cheesecake</h3>
+       <div class="media">
+    <div class="media-left">
+      <img src="images/cheeseck1.jpg" class="media-object img-rounded" style="width:300px;height:225px;">
+ </div>    
+    <div class="media-body">
+<h4 class="media-heading" style="color:#939;"><span class="glyphicon glyphicon-star"></span>Salted Caramel Cheesecake</h4> <!--Changed the font color--> 
+      <p style="color:#939;">Caramel Cheesecake and Creamy Caramel Mousse on a Blonde Brownie all topped with Salted Caramel.</p> <!--Added the paragraph--> 
+        <div class="list-group">
+    <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">
+      <h4 class="list-group-item-heading" style="color:#939;">Ingredients</h4> 
+    </ul>
+    <ul class="list-group-item">
+    <p class="list-group-item-text"><i class="fa fa-shopping-cart"></i>Grocery List</p>
+     <p class="list-group-item-text">Crust Layer</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 3/4 <i class="fa fa-coffee"></i>cups graham cracker crumbs (about 28 squares)</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-coffee"></i>cup packed brown sugar</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup butter, melted</p> 
+     <p class="list-group-item-text">Filling Layer</p> 
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 packages (8 oz each) cream cheese, softened</p> 
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-coffee"></i>cup packed brown sugar</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 eggs</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3/4 <i class="fa fa-coffee"></i>cup whipping cream</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-coffee"></i>cup caramel-flavored coffee syrup</p>
+     <p class="list-group-item-text">Caramel Sauce Layer</p> 
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/4 <i class="fa fa-coffee"></i>cups packed brown sugar</p> 
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup butter</p> 
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 <i class="fa fa-spoon"></i>tablespoons caramel-flavored coffee syrup</p>           
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-spoon"></i>teaspoons flaked sea salt</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup whipping cream</p>
+    </ul>
+      <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">      
+       <h4 class="list-group-item-heading" style="color:#939;">Directions</h4>
+           </ul>
+      <ul class="list-group-item"> 
+    <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Preheat the oven to 350 degrees F. Wrap outside bottom and side of 9-inch springform pan with heavy-duty foil to prevent leaking. Grease inside bottom and side of pan with shortening. In small bowl, mix crust ingredients. Press in bottom of pan. Bake 8 to 10 minutes or until set. Reduce oven temperature to 300°F. Cool crust 10 minutes. Meanwhile, in large bowl, beat cream cheese and 1 cup brown sugar with electric mixer on medium speed until smooth. Beat in eggs, one at a time, just until blended. Add 3/4 cup whipping cream and 1/4 cup coffee syrup; beat until blended. Pour filling over crust.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Bake at 300°F 1 hour 10 minutes to 1 hour 20 minutes or until edge of cheesecake is set at least 2 inches from edge of pan but center of cheesecake still jiggles slightly. Turn oven off; open door 4 inches. Let cheesecake remain in oven 30 minutes. Run small metal spatula around edge of pan to loosen cheesecake. Cool in pan on cooling rack 30 minutes. Refrigerate at least 6 hours or overnight.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> In 2-quart saucepan, melt 1/2 cup butter over medium heat. Add 1 1/4 cups brown sugar and 2 tablespoons coffee syrup. Heat to boiling; cook and stir 1 minute until sugar dissolves. Stir in 1/2 cup whipping cream; return to boiling. Remove from heat. Cool 10 minutes.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span>To serve, run small metal spatula around edge of springform pan; carefully remove foil and side of pan. Cut cheesecake into slices. Drizzle caramel sauce over slices; sprinkle with salt. Cover; refrigerate any remaining cheesecake.</p>
+    </ul>
+        </div>
+          </div>
+  <p><a href="pdf/SCARCheesecake.pdf"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-print"></span> Recipe</button></a></p>
+      </div>
+  </div> 
+<!--/CCK3 left-aligned tab with dropdown menu--> 
+<!--CCK4 left-aligned tab with dropdown menu--> 
+    <div id="CCK4" class="tab-pane fade">
+      <h3 style="color:#939;">Toasted Marshmallow S'mores Galore Cheesecake</h3>
+       <div class="media">
+    <div class="media-left">
+      <img src="images/cheeseck6.jpg" class="media-object img-rounded" style="width:300px;height:225px;">
+ </div>   
+    <div class="media-body">
+<h4 class="media-heading" style="color:#939;"><span class="glyphicon glyphicon-star"></span>Toasted Marshmallow S'mores Galore Cheesecake</h4> <!--Changed the font color--> 
+      <p style="color:#939;">Hershey's Cheesecake Topped with Chocolate Ganache. Finished with Toasted Housemade Marshmallow and Honey Maid Graham Crackers.</p> <!--Added the paragraph--> 
+        <div class="list-group">
+    <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">
+      <h4 class="list-group-item-heading" style="color:#939;">Ingredients</h4>  
+    </ul>
+    <ul class="list-group-item">
+    <p class="list-group-item-text"><i class="fa fa-shopping-cart"></i>Grocery List</p>
+     <p class="list-group-item-text">Flourless Cake Layer</p>
+     <p class="list-group-item-text">In microwave, melt:</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 4 ounces bittersweet chocolate chocolate chips</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 stick butter (8 <i class="fa fa-spoon"></i>tablespoons)</p>
+        <p class="list-group-item-text">Once melted, stir in:</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3/4 <i class="fa fa-coffee"></i>cup sugar</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 eggs</p>
+        <p class="list-group-item-text">Whisk well</p>
+        <p class="list-group-item-text">Chocolate Cheesecake Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 pound cream cheese, must be softened to room temperature</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup sugar</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 eggs</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup chocolate chips, melted (I used semisweet) and cooled a bit</p>
+        <p class="list-group-item-text">Mousse Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/4 <i class="fa fa-coffee"></i>cups semi sweet chocolate chips, melted in microwave and cooled a bit</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 <i class="fa fa-coffee"></i>cups heavy cream</p>
+        <p class="list-group-item-text">Glaze Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 12 ounces chocolate chips</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-coffee"></i>cup butter</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-spoon"></i>tablespoon light corn syrup</p>
+        <p class="list-group-item-text">Marshmallow Topping Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 egg whites</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 <i class="fa fa-coffee"></i>cups light corn syrup</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-spoon"></i>teaspoon salt</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 <i class="fa fa-coffee"></i>cups powdered sugar</p>
+    </ul>
+      <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">      
+       <h4 class="list-group-item-heading" style="color:#939;">Directions</h4>
+           </ul>
+      <ul class="list-group-item"> 
+ <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Preheat the oven to 350 degrees F. Grease 9 inch springform pan. Flourless Cake: Add 1/2 cup. unsweetened cocoa powder. Best to sift it in! Pour into the springform and set aside while preparing cheesecake layer.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Chocolate Cheesecake Layer: Beat the cream cheese until fluffy. Add sugar and mix well. Add eggs one at a time. Pour in the cooled melted chocolate and mix to blend all. Carefully spread over the flourless cake layer. Bake the cake at 350 for 50-60 minutes. Let cool and then chill a few hours in the fridge.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Mousse Layer: Beat the cream in the mixer until almost soft peaks. Add the chocolate and mix just until combined and thick. Spread over the chilled cheesecake and chill again while preparing the glaze.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Glaze: Melt the chocolate and butter in the microwave until melted. Stir in corn syrup. Let cool a bit before pouring on cake. Pour on and spread and chill. Remove cake from fridge before serving so it can come up to room temp a bit. Cut with a hot knife and clean knife between slices. The top layer is thick and will be too hard to cut directly from the fridge. After a few minutes it is perfect and beyond delicious!</p>
+ <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Marshmallow Topping (Note: this does contain raw egg whites so make sure they are safe for you and your guests): In a mixer, beat egg whites, corn syrup, and salt.  Beat on high speed for 5 minutes or until doubled. On low, add powdered sugar.  Place some in a piping bag and pour over each slice of cheesecake you are serving.  Use a creme brulee torch to toast the marshmallow quickly.  This makes a ton of marshmallow (fluff) so you can store the rest in the refrigerator for 2 weeks.</p>
+    </ul>
+</div>
+  </div>
+   <p><a href="pdf/TMSGCheesecake.pdf"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-print"></span> Recipe</button></a></p>
+    </div>
+</div> 
+<!--/CCK4 left-aligned tab with dropdown menu--> 
+<!--CCK5 left-aligned tab with dropdown menu--> 
+    <div id="CCK5" class="tab-pane fade">
+      <h3 style="color:#939;">Lemon Meringue Cheesecake</h3>
+       <div class="media">
+    <div class="media-left">
+      <img src="images/cheeseck7.jpg" class="media-object img-rounded" style="width:300px;height:225px;">
+  </div>   
+    <div class="media-body">
+<h4 class="media-heading" style="color:#939;"><span class="glyphicon glyphicon-star"></span>Lemon Meringue Cheesecake</h4> <!--Changed the font color--> 
+      <p style="color:#939;">Lemon Cream Cheesecake Topped with Layers of Lemon Mousse and Meringue.</p> <!--Added the paragraph--> 
+        <div class="list-group">
+    <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">
+      <h4 class="list-group-item-heading" style="color:#939;">Ingredients</h4> 
+    </ul>
+    <ul class="list-group-item">
+    <p class="list-group-item-text"><i class="fa fa-shopping-cart"></i>Grocery List</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-coffee"></i>cups graham cracker crumbs</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-coffee"></i>cup butter, melted</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 3/4 <i class="fa fa-coffee"></i>cups sugar, divided</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 lemons</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 4 eggs, divided</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 4 packages (8 ounces each) PHILADELPHIA Cream Cheese, softened</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-coffee"></i>cup BREAKSTONE'S or KNUDSEN Sour Cream</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-spoon"></i>teaspoon cream of tartar</p>
+    </ul>
+      <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">      
+       <h4 class="list-group-item-heading" style="color:#939;">Directions</h4>
+           </ul>
+      <ul class="list-group-item"> 
+    <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Preheat the oven to 325 degrees F. Mix crumbs, butter and 2 Tbsp. sugar; press onto bottom of 9-inch springform pan. Grate zest from 1 lemon, then squeeze 1/2 cup juice from all lemons. Separate 3 eggs.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Beat cream cheese and 1 cup of the remaining sugar in large bowl with mixer until blended. Add sour cream and lemon juice; mix well. Add 1 whole egg and 3 yolks, 1 at a time, mixing on low speed after each just until blended. Stir in zest. Pour over crust.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Bake 1 hour 10 min. or until center is set; remove from oven. Increase oven temperature to 400ºF.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Beat egg whites and cream of tartar in small bowl with mixer on high speed until foamy. Gradually add remaining sugar, beating until stiff peaks form; spoon onto cheesecake. Spread to completely cover top. Bake 8 to 10 min. or until golden brown. Run knife around rim of pan to loosen cake; cool before removing rim. Refrigerate 4 hours.</p>         
+    </ul>
+</div> 
+ </div>
+  <p><a href="pdf/LMERCheesecake.pdf"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-print"></span> Recipe</button></a></p>
+    </div>
+</div> 
+<!--/CCK5 left-aligned tab with dropdown menu--> 
+<!--CCK6 left-aligned tab with dropdown menu-->        
+    <div id="CCK6" class="tab-pane fade">
+      <h3 style="color:#939;">Ultimate Red Velvet Cake Cheesecake</h3>   
+       <div class="media">
+    <div class="media-left">
+      <img src="images/cheeseck4.jpg" class="media-object img-rounded" style="width:300px;height:225px;">
+</div>     
+    <div class="media-body">
+<h4 class="media-heading" style="color:#939;"><span class="glyphicon glyphicon-star"></span>Ultimate Red Velvet Cake Cheesecake</h4> <!--Changed the font color--> 
+      <p style="color:#939;">Moist layers of Red Velvet Cake and our Original Cheesecake covered with my special cream cheese frosting.</p> <!--Added the paragraph--> 
+        <div class="list-group">
+    <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">
+      <h4 class="list-group-item-heading" style="color:#939;">Ingredients</h4> 
+    </ul>
+    <ul class="list-group-item">
+    <p class="list-group-item-text"><i class="fa fa-shopping-cart"></i>Grocery List</p>
+     <p class="list-group-item-text">Cheesecake Layer</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/4 lbs bar cream cheese, room temperature (20 oz)</p>
+     <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3/4 <i class="fa fa-coffee"></i>cup sugar</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-spoon"></i>tablespoon fresh lemon juice</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/4 <i class="fa fa-spoon"></i>teaspoon coarse salt</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 large eggs</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1/2 <i class="fa fa-coffee"></i>cup sour cream, room temperature</p>
+        <p class="list-group-item-text">Cake Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 1/2 <i class="fa fa-coffee"></i>cups cake flour</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-coffee"></i>cups sugar</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-spoon"></i>teaspoons baking soda</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 <i class="fa fa-spoon"></i>tablespoons cocoa powder</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-spoon"></i>teaspoon salt</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 eggs</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-coffee"></i>cups vegetable oil (I always use melted coconut oil)</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 <i class="fa fa-coffee"></i>cup buttermilk</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 <i class="fa fa-spoon"></i>tablespoons red food coloring</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 2 <i class="fa fa-spoon"></i>teaspoons vanilla extract</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-spoon"></i>teaspoons white distilled vinegar</p>
+        <p class="list-group-item-text">Frosting Layer</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 12 ounces cream cheese, softened</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 12 ounces butter, softened</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 1 1/2 <i class="fa fa-spoon"></i>teaspoons vanilla extract</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> 3 <i class="fa fa-coffee"></i>cups confectioners' sugar, sifted</p>
+        <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> </p>
+    </ul>
+      <ul class="list-group-item active" style="background-color:#ff0; border: 2px solid #939;">      
+       <h4 class="list-group-item-heading" style="color:#939;">Directions</h4>
+           </ul>
+      <ul class="list-group-item"> 
+    <p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Preheat the oven to 325 degrees F. Set a kettle of water on to boil. For cheesecake: Using an electric mixer, beat cream cheese on medium until fluffy, scraping down side of bowl. Gradually add sugar, beating until fluffy. Beat in lemon juice and salt. Beat in the eggs, one at a time, scraping down the side of the bowl after each. Beat in the sour cream. Spray the pan with non-stick spray like Baker's Secret. Cut parchment paper in a circle and line the bottom of the cheesecake pan. Spray the parchment. Wrap bottom half of pan in foil. Pour in filling and place in a large, oven safe pan. Pour in boiling water to come halfway up side of the springform pan. Bake until just set in center, about 45 minutes. Remove pan from water. Let cool for approximately 20 minutes. Run a knife around edge and continue to cool completely. Carefully place a plate on top of cooled cheesecake layer and flip it over onto plate. Remove parchment paper. Cover in plastic wrap and freeze.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> For the cake: Preheat oven to 350°. I always use cake strips on all the cakes I bake because the cakes turn out perfectly flat on top. So soak your cake strips and attach them to your pans now if you're using them. Sift together flour, sugar, baking soda, cocoa, and salt into a medium bowl. Beat eggs, oil, buttermilk, food coloring, vanilla, and vinegar in a large bowl with an electric mixer until well combined. Add dry ingredients and beat until smooth, about 2 minutes. Divide batter evenly between 2 greased and floured 9" round cake pans and bake 25-30 minutes, rotating halfway through, until a toothpick inserted in the center of each cake comes out clean. Let cakes cool 5 minutes, then invert each onto a plate, then invert again onto a cooling rack. Let cakes cool completely. If you didn't use cake strips, level the layers now.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Frosting: Beat cream cheese, butter, and vanilla together in a large bowl with an electric mixer until combined. Add sugar and beat until frosting is light and fluffy, 5–7 minutes.</p>
+<p class="list-group-item-text"><span class="glyphicon glyphicon-check"></span> Assembly: Place bottom layer on cake stand. Remove cheesecake from freezer, unwrap and place cheesecake layer on top of the bottom layer of the red velvet cake. If the cheesecake is wider than the cake, and it is necessary to to trim it, wait approximately 10 minutes for the cheesecake to soften, then trim it with a knife. Place top layer of cake on top of the cheesecake, and coat with a generous layer of the cream cheese frosting to act as the crumb coat. Refrigerate approximately 30 minutes, then frost with as much of the remaining frosting as necessary. Refrigerate until ready to serve.</p>
+ </ul>
+</div>
+ </div>
+ <p><a href="pdf/URVCCheesecake.pdf"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-print"></span> Recipe</button></a></p>
+     </div>
+</div> 
+<!--/CCK6 left-aligned tab with dropdown menu-->  
+    </div> 
+</div>         
+ <hr>
+    <footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up" style="color:#939;"></span>
+  </a>
+  <p style="color:#939;">Cheesecake Delight by Mollie Jones</p>
+</footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/scrollspy.js"></script>
+    
+
+</body>
+
+</html>
