@@ -28,12 +28,12 @@ body {
 
 .navbar-inverse .navbar-nav > .active > a {
   color: #fff;
-  background-color: #f00;
+  background-color: #000;
 }
 
 .navbar-inverse  .navbar-nav > li > a:hover{
     background-color:#000;
-    color:#000;
+    color:#fff;
 }
 
 .navbar-fixed-top .navbar-brand {
