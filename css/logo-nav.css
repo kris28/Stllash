@@ -32,8 +32,8 @@ body {
 }
 
 .navbar-inverse  .navbar-nav > li > a:hover{
-    background-color:#f00;
-    color:#069;
+    background-color:#000;
+    color:#000;
 }
 
 .navbar-fixed-top .navbar-brand {
