@@ -13,7 +13,7 @@ body {
 }
 /*changed the background color*/
 .navbar-inverse{
-background-color:#069;
+
          background-image: linear-gradient(120deg, #ff0000, #ff6600); 
 }
 .btn{
